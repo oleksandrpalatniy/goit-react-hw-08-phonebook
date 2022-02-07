@@ -6,7 +6,6 @@ import { store, persistor } from './redux/store';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
-
 render(
   <StrictMode>
     <Provider store={store}>

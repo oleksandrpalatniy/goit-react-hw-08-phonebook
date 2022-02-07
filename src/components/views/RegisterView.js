@@ -40,7 +40,6 @@ export default function RegisterView() {
     setPassword('');
   };
 
-  
   return (
     <div>
       <h1>Registration</h1>

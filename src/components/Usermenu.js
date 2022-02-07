@@ -21,8 +21,7 @@ const styles = {
 
 const UserMenu = () => {
   const userName = useSelector(getUserName);
-  const [logOut, {isSuccess, isError, error }] =
-    useLogOutMutation();
+  const [logOut, { isSuccess, isError, error }] = useLogOutMutation();
 
   useEffect(() => {
     isError && toast.error(error);
